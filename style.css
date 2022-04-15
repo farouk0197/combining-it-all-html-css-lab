@@ -5,7 +5,7 @@
 
 .box {
     width: 638px;
-    height: 421px;
+    height: 921px;
     background-color: black;
     margin: auto;
 }
@@ -15,6 +15,8 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: grey;
+    padding: 25px;
+    top:0;
 }
 
 ul {
@@ -29,4 +31,6 @@ li {
 
 h2 {
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
