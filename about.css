@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 nav {
@@ -10,6 +11,7 @@ nav {
     background-color: grey;
     padding: 25px;
     top:0;
+    color: white;
 }
 ul {
     display: flex;
@@ -21,8 +23,16 @@ li {
     padding-right: 20px;
 }
 
+header {
+    text-align: center;
+}
+
 header h1 {
     padding: 50px 0 25px 25px;
+}
+
+h2 {
+    display: none;
 }
 
 .box {
@@ -39,4 +49,39 @@ header h1 {
     row-gap:52px;
     justify-items:center;
     
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 25px;
+    top:0;
+    }
+    
+    h1 {
+    display: none;
+    }
+    
+    ul {
+    display: flex;
+    list-style: none;
+    }
+
+    li {
+    padding-left: 10px;
+    padding-right: 20px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header h2{
+        display: contents;
+    }
 }
