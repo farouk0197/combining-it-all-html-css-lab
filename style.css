@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 638px;
+    height: 421px;
+    background-color: black;
+    margin: auto;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+h2 {
+    text-align: center;
+}
